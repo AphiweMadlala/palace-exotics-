@@ -4,386 +4,79 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Palace Exotic Car Hire | Luxury &amp; Exotic Car Rental in Durban</title>
-<meta name="description" content="Exotic and luxury car hire in Durban, South Africa: Rolls-Royce Ghost, Ferrari 458 Spider, Porsche 911 GT3, 1967 Shelby GT500 “Eleanor”, BMW M3 Competition and more. Chauffeured rentals, private events and special occasions. Enquire on WhatsApp.">
-<meta property="og:title" content="Palace Exotic Car Hire | Durban">
-<meta property="og:description" content="Exotic, luxury and chauffeured car hire in Durban, South Africa. Enquire on WhatsApp.">
+<meta name="description" content="Exotic, luxury and chauffeured car hire in Durban, South Africa: Rolls-Royce Ghost, Ferrari 458 Spider, Porsche 911 GT3, 1967 Shelby GT500, BMW M3 Competition and Maybach V-Class. Enquire on WhatsApp.">
+<meta property="og:title" content="Palace Exotic Car Hire | Luxury &amp; Exotic Car Rental in Durban">
+<meta property="og:description" content="Exotic, luxury and chauffeured car hire in Durban, South Africa: Rolls-Royce Ghost, Ferrari 458 Spider, Porsche 911 GT3, 1967 Shelby GT500, BMW M3 Competition and Maybach V-Class. Enquire on WhatsApp.">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Palace Exotic Car Hire">
 <meta property="og:locale" content="en_ZA">
-<!-- IMPORTANT: replace with the absolute public URL for this image before launch. -->
+<!-- Before launch: make og:image absolute and add <link rel="canonical" href="https://YOUR-DOMAIN/PAGE.html"> -->
 <meta property="og:image" content="assets/img/gt3-rear.webp">
-<meta property="og:image:width" content="1170">
-<meta property="og:image:height" content="1457">
-<meta property="og:image:alt" content="Rear of a black Porsche 911 GT3 in the Palace garage">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="theme-color" content="#060A11">
+<meta name="theme-color" content="#07111F">
 <link rel="icon" href="assets/img/logo.webp" type="image/webp">
-<link rel="preload" as="image" href="assets/img/gt3-rear.webp" imagesrcset="assets/img/gt3-rear-480.webp 480w, assets/img/gt3-rear-800.webp 800w, assets/img/gt3-rear.webp 1170w" imagesizes="100vw" fetchpriority="high">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
 <link rel="preload" as="font" type="font/woff2" href="assets/fonts/bodoni-moda-latin-wght-normal.woff2" crossorigin>
 <link rel="preload" as="font" type="font/woff2" href="assets/fonts/instrument-sans-latin-wght-normal.woff2" crossorigin>
-<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
-<!-- Before launch: add <link rel="canonical" href="https://YOUR-DOMAIN/"> and og:url -->
-<style>
-@font-face{font-family:"Bodoni Moda";src:url(assets/fonts/bodoni-moda-latin-wght-normal.woff2) format("woff2");font-weight:400 900;font-style:normal;font-display:swap}
-@font-face{font-family:"Bodoni Moda";src:url(assets/fonts/bodoni-moda-latin-wght-italic.woff2) format("woff2");font-weight:400 900;font-style:italic;font-display:swap}
-@font-face{font-family:"Instrument Sans";src:url(assets/fonts/instrument-sans-latin-wght-normal.woff2) format("woff2");font-weight:400 700;font-display:swap}
-:root{--abyss:#060A11;--deep:#0C131D;--slate:#141E2B;--glacier:#7AD7E8;--bone:#ECEFF1;--mist:#98A4B1;--ink:#0A0F16;--serif:"Bodoni Moda","Didot","Bodoni 72",Georgia,serif;--sans:"Instrument Sans",system-ui,-apple-system,"Segoe UI",sans-serif;--pad:clamp(1.25rem,4vw,3.5rem);--s1:.5rem;--s2:1rem;--s3:2rem;--s4:4rem;--s5:clamp(5rem,12vw,10rem)}
-*{box-sizing:border-box;margin:0}
-html{scroll-behavior:smooth;scroll-padding-top:4.5rem;-webkit-text-size-adjust:100%}
-body{background:var(--abyss);color:var(--bone);font:400 1rem/1.6 var(--sans);overflow-x:hidden}
-img{display:block;max-width:100%}
-a{color:inherit}
-:focus-visible{outline:2px solid var(--focus,var(--glacier));outline-offset:3px}
-.ghost,.enq-sec{--focus:var(--ink)}
-html.lock{overflow:hidden}
-.skip{position:absolute;left:var(--pad);top:-4rem;background:var(--bone);color:var(--ink);padding:.6rem 1rem;z-index:100}.skip:focus{top:.75rem}
-.ph{position:relative;overflow:hidden;background:var(--deep)}
-.ph img{width:100%;height:100%;object-fit:cover}
-.serif{font-family:var(--serif);font-weight:400;letter-spacing:-.02em}
-/* nav */
-.nav{position:fixed;inset:0 0 auto;z-index:50;display:flex;align-items:center;justify-content:space-between;padding:calc(.9rem + env(safe-area-inset-top,0px)) var(--pad) .9rem;transition:background-color .3s}
-.nav.solid{background:rgba(6,10,17,.94)}
-.brand{display:flex;align-items:center;gap:.7rem;text-decoration:none}
-.brand img{width:38px;height:38px;border-radius:50%}
-.brand b{font:400 1.45rem/1 var(--serif);letter-spacing:.02em}
-.brand small{display:block;font-size:.7rem;color:var(--mist);letter-spacing:.04em;margin-top:.2rem}
-.links{display:flex;gap:2rem;align-items:center;font-size:.92rem}
-.links a{text-decoration:none;padding:.65rem 0;border-bottom:1px solid transparent}
-.links a:hover{border-color:var(--glacier)}
-.links .cta{border:1px solid var(--bone);padding:.55rem 1.1rem}.links .cta:hover{background:var(--bone);color:var(--ink)}
-.menu{display:none;background:none;border:0;color:inherit;font:inherit;padding:.5rem 0;min-height:44px;min-width:44px;text-align:right;cursor:pointer}
-@media(max-width:760px){.menu{display:block}.links{position:fixed;inset:0;background:var(--abyss);flex-direction:column;justify-content:center;gap:1.6rem;font:400 2.2rem var(--serif);visibility:hidden;opacity:0;transition:.25s}.nav.open .links{visibility:visible;opacity:1}.nav.open .menu,.nav.open .brand{position:relative;z-index:2}.links .cta{font:inherit;border:0;padding:0;text-decoration:underline}}
-/* hero */
-.hero{position:relative;min-height:100vh;min-height:100svh;display:flex;align-items:flex-end;padding:8rem var(--pad) var(--s3);isolation:isolate}
-.hero .ph{position:absolute;inset:0;z-index:-1}
-.hero .ph img{object-position:50% 70%;animation:settle 1.6s cubic-bezier(.2,.7,.2,1) both}
-.hero .ph::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(6,10,17,.6),transparent 30%,transparent 38%,rgba(6,10,17,.94))}
-.hero h1{font-size:clamp(2.9rem,9.4vw,9rem);line-height:.9;max-width:14ch}
-.hero h1 span{display:block;animation:rise .8s .1s cubic-bezier(.2,.7,.2,1) both}.hero h1 span+span{animation-delay:.2s;padding-left:.6em}
-.hero .row{display:flex;flex-wrap:wrap;gap:1.5rem 3rem;align-items:flex-end;justify-content:space-between;margin-top:var(--s3)}
-.hero p{max-width:34ch;color:#cfd7de}
-.btn{display:inline-block;background:var(--bone);color:var(--ink);padding:.95rem 1.6rem;text-decoration:none;font-weight:500;border:0;cursor:pointer;font-family:inherit;font-size:1rem}
-.btn:hover{background:var(--glacier)}
-.btn,.enq,.links a{transition:background-color .2s,color .2s,border-color .2s}
-.btn:active,.enq:active{transform:translateY(1px)}.btn[disabled]{opacity:.55;cursor:default}
-.ulink{text-decoration:none;border-bottom:1px solid var(--glacier);padding-bottom:.15rem}
-.hero .acts{display:flex;gap:1.6rem;align-items:center;flex-wrap:wrap}
-.cap{position:absolute;right:var(--pad);top:50%;writing-mode:vertical-rl;font-size:.75rem;color:var(--mist);letter-spacing:.08em}
-@keyframes settle{from{transform:scale(1.1)}to{transform:scale(1)}}
-@keyframes rise{from{opacity:0;transform:translateY(1.2rem)}to{opacity:1;transform:none}}
-/* collection */
-.sec{padding:var(--s5) var(--pad)}
-.intro{padding-bottom:var(--s3)}
-.intro h2,.exp h2,.enq-sec h2{font-size:clamp(2.2rem,6vw,5rem);line-height:1}
-.intro p{margin-top:1rem;max-width:52ch;color:var(--mist)}
-.g12{display:grid;grid-template-columns:repeat(12,1fr);gap:clamp(.6rem,1.6vw,1.4rem)}
-.name{font-size:clamp(2.6rem,8vw,7.5rem);line-height:.92}
-.lede{color:var(--mist);max-width:42ch;margin:1rem 0}
-.spec{display:grid;gap:.1rem;margin:1.2rem 0 1.6rem;font-size:.92rem;max-width:40ch}
-.spec div{display:flex;justify-content:space-between;gap:1rem;border-top:1px solid rgba(152,164,177,.3);padding:.55rem 0}
-.spec dt{color:var(--mist)}.spec dd{text-align:right}
-.note{font-size:.78rem;color:var(--mist);max-width:44ch;margin-top:.9rem}
-.enq{display:inline-block;border:1px solid currentColor;padding:.8rem 1.3rem;text-decoration:none;font-weight:500}
-.enq:hover{background:var(--glacier);border-color:var(--glacier);color:var(--ink)}
-/* Ghost: light, restrained */
-.ghost{background:var(--bone);color:var(--ink)}
-.ghost .lede,.ghost .spec dt,.ghost .note{color:#4b5662}
-.ghost .spec div{border-color:rgba(10,15,22,.25)}
-.ghost .name{grid-column:1/-1;font-size:clamp(3rem,11vw,10.5rem);margin-bottom:var(--s2)}
-.ghost .main{grid-column:4/-1;grid-row:2;aspect-ratio:5/4}.ghost .main img{object-position:50% 62%}
-.ghost aside{grid-column:1/4;grid-row:2;align-self:end}
-.ghost .det{grid-column:1/-1;grid-row:3;display:grid;grid-template-columns:repeat(12,1fr);gap:inherit;align-items:start;margin-top:var(--s2)}
-.ghost .det .ph:nth-child(1){grid-column:span 7;aspect-ratio:3/2}.ghost .det .ph:nth-child(2){grid-column:span 5;aspect-ratio:4/5;margin-top:4rem}
-.ghost .det .ph:nth-child(n+3){grid-column:span 3;aspect-ratio:3/4}.ghost .det .ph:nth-child(4){margin-top:2.5rem}.ghost .det .ph:nth-child(6){margin-top:1.2rem}
-@media(max-width:860px){.ghost .main,.ghost aside{grid-column:1/-1;grid-row:auto}.ghost .det{grid-row:auto}.ghost .det .ph:nth-child(n){grid-column:span 6;margin-top:0;aspect-ratio:4/5}.ghost .det .ph:nth-child(1){grid-column:1/-1;aspect-ratio:3/2}.ghost .det .ph:nth-child(6){grid-column:1/-1;aspect-ratio:3/2}.ghost aside{margin-top:1rem}}
-/* Ferrari: cinematic */
-.fer{background:var(--abyss)}
-.fer .stage{position:relative;min-height:96vh;min-height:96svh;display:flex;align-items:flex-end;padding:var(--s5) var(--pad) var(--s3);isolation:isolate}
-.fer .stage>.ph{position:absolute;inset:0;z-index:-1}.fer .stage>.ph img{object-position:50% 64%}
-.fer .stage>.ph::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(6,10,17,.55),transparent 35%,rgba(6,10,17,.95))}
-.fer .row{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:2rem;width:100%}
-.fer .name{font-size:clamp(3.2rem,12vw,11rem);line-height:.88}.fer .name em{display:block;padding-left:.5em}
-.fer .box{max-width:26rem}.fer .box .lede{color:#cfd7de}
-.fer .gal{display:grid;grid-template-columns:repeat(12,1fr);gap:clamp(.6rem,1.6vw,1.4rem);padding:var(--s2) var(--pad) var(--s5);align-items:start}
-.fer .gal .ph:nth-child(1){grid-column:span 4;aspect-ratio:4/5}.fer .gal .ph:nth-child(2){grid-column:span 5;aspect-ratio:4/5;margin-top:4rem}
-.fer .gal .ph:nth-child(3){grid-column:span 3;aspect-ratio:3/4;margin-top:1.5rem}.fer .gal .ph:nth-child(4){grid-column:span 7;aspect-ratio:5/4}.fer .gal .ph:nth-child(5){grid-column:span 5;aspect-ratio:4/5;margin-top:3rem}
-@media(max-width:860px){.fer .gal .ph:nth-child(n){grid-column:span 6;margin-top:0;aspect-ratio:4/5}.fer .gal .ph:nth-child(n+3){grid-column:1/-1;aspect-ratio:5/4}.fer .box{max-width:none}}
-/* GT3: dynamic collage */
-.gt3 .name{grid-column:1/9;font-style:italic;grid-row:1}
-.gt3 .a{grid-column:1/5;grid-row:2/5}.gt3 .b{grid-column:5/13;grid-row:2;aspect-ratio:3/2}
-.gt3 .c{grid-column:5/9;grid-row:3;aspect-ratio:1/1}.gt3 .d{grid-column:9/13;grid-row:3;aspect-ratio:1/1}
-.gt3 .txt{grid-column:9/13;grid-row:1;align-self:end}
-.gt3 .info{grid-column:5/-1;grid-row:4;margin-top:1.2rem}.gt3 .info>div{max-width:26rem}
-@media(max-width:860px){.gt3 .name,.gt3 .txt,.gt3 .a,.gt3 .b,.gt3 .c,.gt3 .d,.gt3 .info>div{grid-column:1/-1;grid-row:auto}.gt3 .a{aspect-ratio:4/5}.gt3 .c,.gt3 .d{grid-column:span 6}.gt3 .info{grid-column:1/-1}}
-/* GT500: horizontal rail */
-.gt5{background:var(--slate);padding-inline:0}
-.gt5 .hd{padding:0 var(--pad);display:grid;grid-template-columns:repeat(12,1fr);gap:1.4rem;align-items:end;margin-bottom:var(--s3)}
-.gt5 .name{grid-column:1/9}.gt5 .hd>div{grid-column:9/13}
-.rail{overscroll-behavior-x:contain;display:flex;gap:1rem;overflow-x:auto;scroll-snap-type:x mandatory;padding:0 var(--pad) 1rem;scrollbar-color:var(--glacier) transparent}
-.rail .ph{flex:0 0 min(78vw,34rem);aspect-ratio:4/5;scroll-snap-align:start}.rail .wide{flex-basis:min(88vw,52rem);aspect-ratio:3/2}
-.gt5 .foot{padding:var(--s3) var(--pad) 0}
-@media(max-width:860px){.gt5 .name,.gt5 .hd>div{grid-column:1/-1}}
-/* M3 */
-.m3 .name{grid-column:1/-1;text-align:right}
-.m3 .a{grid-column:1/6;grid-row:2/4;aspect-ratio:4/5}.m3 .b{grid-column:6/13;grid-row:2;aspect-ratio:16/8}
-.m3 .txt{grid-column:6/10;grid-row:3;align-self:end}.m3 .c{grid-column:10/13;grid-row:3;aspect-ratio:3/4}
-.m3 .d{grid-column:1/5;grid-row:4/6}.m3 .e{grid-column:5/13;grid-row:4;aspect-ratio:3/2}.m3 .f{grid-column:5/13;grid-row:5;aspect-ratio:3/2}
-@media(max-width:860px){.m3 .name{text-align:left}.m3 .a,.m3 .b,.m3 .txt,.m3 .c,.m3 .d,.m3 .e,.m3 .f{grid-column:1/-1;grid-row:auto}.m3 .d{aspect-ratio:4/5}}
-/* Maybach: quiet banner */
-.mb{position:relative;min-height:80vh;min-height:80svh;display:flex;align-items:flex-end;padding:var(--s5) var(--pad) var(--s3);isolation:isolate;background:#000}
-.mb .ph{position:absolute;inset:0;z-index:-1}.mb .ph img{object-position:50% 50%}
-.mb .ph::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(0,0,0,.85),transparent 70%)}
-.mb .name{font-size:clamp(2.4rem,7vw,6rem)}.mb .box{max-width:48rem}
-.mbg{padding-block:var(--s3) 0}.mbg .ph{aspect-ratio:3/2}.mbg .a{grid-column:1/8}.mbg .b{grid-column:8/13}.mbg .c{grid-column:1/6}.mbg .d{grid-column:6/13}
-@media(max-width:700px){.mbg .a,.mbg .b,.mbg .c,.mbg .d{grid-column:1/-1}}
-/* experience */
-.exp{background:var(--deep)}
-.exp .g12>*{align-self:start}
-.exp h2{grid-column:1/8}
-.exp .list{grid-column:7/13;margin-top:var(--s3)}
-.exp .list div{border-top:1px solid rgba(152,164,177,.3);padding:1.3rem 0}
-.exp .list h3{font:400 1.8rem/1.1 var(--serif);margin-bottom:.4rem}.exp .list p{color:var(--mist)}
-.exp .pic{grid-column:1/6;grid-row:2;aspect-ratio:3/4;margin-top:var(--s3)}
-.exp .where{grid-column:1/6;font-size:.9rem;color:var(--mist);margin-top:.6rem;grid-row:3}
-@media(max-width:860px){.exp h2,.exp .list,.exp .pic,.exp .where{grid-column:1/-1;grid-row:auto}}
-.mos{display:grid;grid-template-columns:repeat(6,1fr);grid-auto-rows:clamp(8rem,17vw,15rem);gap:.5rem;padding:0 var(--pad)}
-.mos .ph:nth-child(1){grid-column:span 2;grid-row:span 2}.mos .ph:nth-child(2){grid-column:span 2}.mos .ph:nth-child(3){grid-column:span 2;grid-row:span 2}.mos .ph:nth-child(4){grid-column:span 2}.mos .ph:nth-child(5){grid-column:span 3}.mos .ph:nth-child(6){grid-column:span 3}
-@media(max-width:700px){.mos{grid-template-columns:repeat(2,1fr)}.mos .ph:nth-child(n){grid-column:auto;grid-row:auto}}
-/* enquiry */
-.enq-sec{background:var(--bone);color:var(--ink)}
-.enq-sec .g12>div:first-child{grid-column:1/6}.enq-sec form{grid-column:7/13;display:grid;gap:1rem}
-.enq-sec p{margin-top:1rem;color:#4b5662;max-width:38ch}
-label{display:grid;gap:.35rem;font-size:.85rem;font-weight:500}
-input,select,textarea{font:inherit;padding:.8rem .9rem;border:1px solid #9aa5b0;background:#fff;color:var(--ink);border-radius:0;width:100%}
-.two{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
-.enq-sec .btn{background:var(--ink);color:var(--bone)}.enq-sec .btn:hover{background:#1b2a3a}
-.fine{font-size:.8rem;color:#4b5662;margin-top:0}
-.err{color:#9b1c1c;font-size:.82rem;font-weight:400}
-[aria-invalid=true]{border-color:#9b1c1c}
-footer a{display:inline-block;padding:.6rem 0}
-@media(max-width:860px){.enq-sec .g12>div:first-child,.enq-sec form{grid-column:1/-1}.two{grid-template-columns:1fr}}
-/* close + footer */
-.end{position:relative;min-height:90vh;min-height:90svh;display:flex;align-items:flex-end;padding:var(--s5) var(--pad) var(--s3);isolation:isolate}
-.end .ph{position:absolute;inset:0;z-index:-1}.end .ph::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(6,10,17,.4),rgba(6,10,17,.95))}
-.end h2{font-size:clamp(2.6rem,9vw,8rem);line-height:.92;max-width:12ch}
-.end .row{display:flex;flex-wrap:wrap;gap:2rem 4rem;justify-content:space-between;align-items:flex-end;width:100%}
-.end address{font-style:normal;display:grid;gap:.3rem;margin-top:1.6rem}
-footer{padding:1.5rem var(--pad) calc(1.5rem + env(safe-area-inset-bottom,0px));display:flex;flex-wrap:wrap;gap:1rem 2rem;justify-content:space-between;font-size:.85rem;color:var(--mist);border-top:1px solid rgba(152,164,177,.2)}
-footer nav{display:flex;gap:1.4rem}
-@media(max-width:760px){.cap{display:none}.hero h1{max-width:none}.hero h1 span+span{padding-left:0}}
-@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}}
-</style>
+<link rel="preload" as="image" href="assets/img/gt3-rear.webp" imagesrcset="assets/img/gt3-rear-480.webp 480w, assets/img/gt3-rear-800.webp 800w, assets/img/gt3-rear.webp 1170w" imagesizes="100vw" fetchpriority="high">
+<link rel="stylesheet" href="assets/css/site.css">
 </head>
 <body>
 <div id="sentinel" aria-hidden="true" style="position:absolute;top:0;left:0;width:1px;height:40px;pointer-events:none"></div>
-<a class="skip" href="#collection">Skip to the collection</a>
+<a class="skip" href="#main">Skip to content</a>
 <header class="nav" id="nav">
-  <a class="brand" href="#top" aria-label="Palace Exotic Car Hire, home"><img src="assets/img/logo.webp" width="38" height="38" alt=""><span><b>Palace</b><small>Exotic Car Hire</small></span></a>
+  <a class="brand" href="index.html" aria-label="Palace Exotic Car Hire, home"><img src="assets/img/logo.webp" width="40" height="40" alt=""><span><b>Palace</b><small>Exotic Car Hire</small></span></a>
   <button class="menu" aria-expanded="false" aria-controls="links">Menu</button>
-  <nav class="links" id="links" aria-label="Primary">
-    <a href="#collection">Collection</a><a href="#experience">Experience</a><a class="cta" href="#enquire">Enquire</a>
-  </nav>
+  <nav class="links" id="links" aria-label="Primary"><a href="index.html#fleet">Fleet</a><a href="index.html#experience">Experience</a><a class="cta" href="index.html#enquire">Enquire</a></nav>
 </header>
-<main id="top">
-<section class="hero" aria-label="Palace Exotic Car Hire">
-  <div class="ph"><img src="assets/img/gt3-rear.webp" srcset="assets/img/gt3-rear-480.webp 480w, assets/img/gt3-rear-800.webp 800w, assets/img/gt3-rear.webp 1170w" sizes="100vw" width="1170" height="1457" alt="Rear of a black Porsche 911 GT3 in the Palace garage, its red light bar glowing" fetchpriority="high"></div>
-  <span class="cap" aria-hidden="true">Porsche 911 GT3</span>
-  <div>
-    <h1 class="serif"><span>A garage of</span><span><em>the extraordinary</em></span></h1>
-    <div class="row">
-      <p>Exotic, luxury and chauffeured car hire for private events and special occasions. Durban, South Africa.</p>
-      <div class="acts"><a class="btn" href="#collection">View the collection</a><a class="ulink wa" href="https://wa.me/27837925118" target="_blank" rel="noopener noreferrer">Message on WhatsApp</a></div>
-    </div>
-  </div>
-</section>
-
-<section class="sec intro" id="collection"><h2 class="serif">The collection</h2><p>Photographed in the Palace garage. Rates and availability are confirmed per enquiry, so ask about the car and your dates.</p></section>
-
-<section class="sec ghost" id="ghost" aria-labelledby="n-ghost">
-<div class="g12">
-  <h3 class="serif name" id="n-ghost">Rolls-Royce Ghost</h3>
-  <figure class="ph main"><img src="assets/img/ghost-front.webp" srcset="assets/img/ghost-front-480.webp 480w, assets/img/ghost-front-800.webp 800w, assets/img/ghost-front.webp 1170w" sizes="(max-width:860px) 100vw, 66vw" width="1170" height="1554" alt="Rolls-Royce Ghost facing the camera in a white-lit bay" loading="lazy" decoding="async"></figure>
-  <aside>
-    <p class="lede">Understated prestige. A V12 delivered without drama, in a cabin built for arriving well.</p>
-    <dl class="spec"><div><dt>Engine</dt><dd>6.6 L twin-turbo V12</dd></div><div><dt>Power</dt><dd>563 bhp</dd></div><div><dt>0–60 mph</dt><dd>4.7 s</dd></div><div><dt>Gearbox</dt><dd>8-speed automatic</dd></div></dl>
-    <a class="enq" data-car="Rolls-Royce Ghost" href="https://wa.me/27837925118" target="_blank" rel="noopener noreferrer">Enquire about the Ghost</a>
-    <p class="note">First-generation Ghost factory figures. Year and exact specification of Palace’s car to be confirmed.</p>
-  </aside>
-  <div class="det">
-    <figure class="ph"><img src="assets/img/ghost-cabin.webp" srcset="assets/img/ghost-cabin-480.webp 480w, assets/img/ghost-cabin-800.webp 800w, assets/img/ghost-cabin.webp 1170w" sizes="(max-width:860px) 50vw, 33vw" width="1170" height="774" alt="Ghost cabin with burr walnut dash and cream leather" loading="lazy" decoding="async"></figure>
-    <figure class="ph"><img src="assets/img/ghost-lamp.webp" srcset="assets/img/ghost-lamp-480.webp 480w, assets/img/ghost-lamp-800.webp 800w, assets/img/ghost-lamp.webp 1170w" sizes="(max-width:860px) 50vw, 33vw" width="1170" height="1553" alt="Ghost headlamp and wing" loading="lazy" decoding="async"></figure>
-    <figure class="ph"><img src="assets/img/ghost-grille.webp" srcset="assets/img/ghost-grille-480.webp 480w, assets/img/ghost-grille-800.webp 800w, assets/img/ghost-grille.webp 1170w" sizes="(max-width:860px) 50vw, 33vw" width="1170" height="1554" alt="Ghost grille and Rolls-Royce badge" loading="lazy" decoding="async"></figure>
-    <figure class="ph"><img src="assets/img/ghost-spirit.webp" srcset="assets/img/ghost-spirit-480.webp 480w, assets/img/ghost-spirit-800.webp 800w, assets/img/ghost-spirit.webp 1170w" sizes="(max-width:860px) 50vw, 33vw" width="1170" height="1554" alt="The Spirit of Ecstasy mascot" loading="lazy" decoding="async"></figure>
-    <figure class="ph"><img src="assets/img/ghost-tail.webp" srcset="assets/img/ghost-tail-480.webp 480w, assets/img/ghost-tail-800.webp 800w, assets/img/ghost-tail.webp 1170w" sizes="(max-width:860px) 50vw, 33vw" width="1170" height="1554" alt="Ghost tail lamp and rear wing" loading="lazy" decoding="async"></figure>
-    <figure class="ph"><img src="assets/img/ghost-wheel.webp" srcset="assets/img/ghost-wheel-480.webp 480w, assets/img/ghost-wheel-800.webp 800w, assets/img/ghost-wheel.webp 1170w" sizes="(max-width:860px) 50vw, 33vw" width="1170" height="1553" alt="Ghost alloy wheel with Rolls-Royce centre cap" loading="lazy" decoding="async"></figure>
-  </div>
-</div>
-</section>
-
-<section class="fer" id="ferrari" aria-labelledby="n-fer">
-  <div class="stage">
-    <div class="ph"><img src="assets/img/ferrari-front.webp" srcset="assets/img/ferrari-front-480.webp 480w, assets/img/ferrari-front-800.webp 800w, assets/img/ferrari-front.webp 1170w" sizes="100vw" width="1170" height="1456" alt="Red Ferrari 458 Spider facing the camera under the garage’s zig-zag lighting" loading="lazy" decoding="async"></div>
-    <div class="row">
-      <h3 class="serif name" id="n-fer">Ferrari <em>458 Spider</em></h3>
-      <div class="box"><p class="lede">A naturally aspirated V8 that revs to the limiter, with the roof folded away in seconds.</p>
-        <dl class="spec"><div><dt>Engine</dt><dd>4.5 L V8, naturally aspirated</dd></div><div><dt>Power</dt><dd>570 CV (562 hp)</dd></div><div><dt>0–100 km/h</dt><dd>3.4 s</dd></div><div><dt>Roof</dt><dd>Retractable aluminium hardtop</dd></div></dl>
-        <a class="enq" data-car="Ferrari 458 Spider" href="https://wa.me/27837925118" target="_blank" rel="noopener noreferrer">Enquire about the 458 Spider</a>
-        <p class="note">Factory figures for the model. Year and exact specification of Palace’s car to be confirmed.</p></div>
-    </div>
-  </div>
-  <div class="gal">
-    <figure class="ph"><img src="assets/img/ferrari-lamp.webp" srcset="assets/img/ferrari-lamp-480.webp 480w, assets/img/ferrari-lamp-800.webp 800w, assets/img/ferrari-lamp.webp 1170w" sizes="(max-width:860px) 50vw, 33vw" width="1170" height="1456" alt="Ferrari 458 headlamp and bonnet" loading="lazy" decoding="async"></figure>
-    <figure class="ph"><img src="assets/img/ferrari-wheel.webp" srcset="assets/img/ferrari-wheel-480.webp 480w, assets/img/ferrari-wheel-800.webp 800w, assets/img/ferrari-wheel.webp 1170w" sizes="(max-width:860px) 50vw, 33vw" width="1170" height="1456" alt="Ferrari prancing horse badge above a silver forged wheel" loading="lazy" decoding="async"></figure>
-    <figure class="ph"><img src="assets/img/ferrari-sill.webp" srcset="assets/img/ferrari-sill-480.webp 480w, assets/img/ferrari-sill-800.webp 800w, assets/img/ferrari-sill.webp 1170w" sizes="(max-width:860px) 50vw, 33vw" width="1170" height="1456" alt="Ferrari door sill plate" loading="lazy" decoding="async"></figure>
-    <figure class="ph"><img src="assets/img/ferrari-cockpit.webp" srcset="assets/img/ferrari-cockpit-480.webp 480w, assets/img/ferrari-cockpit-800.webp 800w, assets/img/ferrari-cockpit.webp 1170w" sizes="(max-width:860px) 50vw, 33vw" width="1170" height="1456" alt="Carbon-fibre steering wheel with manettino and engine start" loading="lazy" decoding="async"></figure>
-    <figure class="ph"><img src="assets/img/ferrari-tail.webp" srcset="assets/img/ferrari-tail-480.webp 480w, assets/img/ferrari-tail-800.webp 800w, assets/img/ferrari-tail.webp 1170w" sizes="(max-width:860px) 50vw, 33vw" width="1170" height="1456" alt="Round tail lamp and engine vent" loading="lazy" decoding="async"></figure>
-  </div>
-</section>
-
-<section class="sec gt3" id="gt3" aria-labelledby="n-gt3">
-<div class="g12">
-  <h3 class="serif name" id="n-gt3">Porsche 911 GT3</h3>
-  <div class="txt"><p class="lede">Naturally aspirated, rear-driven, built around the driver.</p></div>
-  <figure class="ph a"><img src="assets/img/gt3-lamp.webp" srcset="assets/img/gt3-lamp-480.webp 480w, assets/img/gt3-lamp-800.webp 800w, assets/img/gt3-lamp.webp 1170w" sizes="(max-width:860px) 50vw, 33vw" width="1170" height="1553" alt="Headlight detail of a black Porsche 911 GT3" loading="lazy" decoding="async"></figure>
-  <figure class="ph b"><img src="assets/img/gt3-bay.webp" srcset="assets/img/gt3-bay-480.webp 480w, assets/img/gt3-bay-800.webp 800w, assets/img/gt3-bay.webp 1170w" sizes="(max-width:860px) 50vw, 33vw" width="1170" height="774" alt="Black GT3 parked among other cars in the garage" loading="lazy" decoding="async"></figure>
-  <figure class="ph c"><img src="assets/img/gt3-wheel.webp" srcset="assets/img/gt3-wheel-480.webp 480w, assets/img/gt3-wheel-800.webp 800w, assets/img/gt3-wheel.webp 1170w" sizes="(max-width:860px) 50vw, 33vw" width="1170" height="774" alt="GT3 wheel with red brake caliper" loading="lazy" decoding="async"></figure>
-  <figure class="ph d"><img src="assets/img/gt3-cockpit.webp" srcset="assets/img/gt3-cockpit-480.webp 480w, assets/img/gt3-cockpit-800.webp 800w, assets/img/gt3-cockpit.webp 1170w" sizes="(max-width:860px) 50vw, 33vw" width="1170" height="1457" alt="GT3 cockpit with Alcantara steering wheel" loading="lazy" decoding="async"></figure>
-  <div class="info"><div>
-    <dl class="spec"><div><dt>Engine</dt><dd>4.0 L flat-six, naturally aspirated</dd></div><div><dt>Power</dt><dd>510 PS</dd></div><div><dt>0–100 km/h</dt><dd>3.4 s (PDK)</dd></div></dl>
-    <a class="enq" data-car="Porsche 911 GT3" href="https://wa.me/27837925118" target="_blank" rel="noopener noreferrer">Enquire about the GT3</a>
-    <p class="note">Factory figures for the 992-generation GT3. Palace’s exact specification to be confirmed.</p>
-  </div></div>
-</div>
-</section>
-
-<section class="sec gt5" id="gt500" aria-labelledby="n-gt5">
-  <div class="hd"><h3 class="serif name" id="n-gt5">1967 Ford Mustang Shelby GT500 <em>“Eleanor”</em></h3>
-  <div><p class="lede">Eleanor is the name given to the 1967 Shelby GT500 in the film <em>Gone in 60 Seconds</em> (2000). A classic with presence.</p></div></div>
-  <div class="rail" role="region" tabindex="0" aria-label="Photographs of the 1967 Shelby GT500, scroll sideways">
-    <figure class="ph"><img src="assets/img/gt500-front.webp" srcset="assets/img/gt500-front-480.webp 480w, assets/img/gt500-front-800.webp 800w, assets/img/gt500-front.webp 1170w" sizes="(max-width:860px) 78vw, 544px" width="1170" height="1553" alt="1967 Shelby GT500 in grey with black stripes" loading="lazy" decoding="async"></figure>
-    <figure class="ph wide"><img src="assets/img/gt500-cockpit.webp" srcset="assets/img/gt500-cockpit-480.webp 480w, assets/img/gt500-cockpit-800.webp 800w, assets/img/gt500-cockpit.webp 1170w" sizes="(max-width:860px) 78vw, 544px" width="1170" height="774" alt="Wood-rimmed steering wheel and dashboard" loading="lazy" decoding="async"></figure>
-    <figure class="ph"><img src="assets/img/gt500-mirror.webp" srcset="assets/img/gt500-mirror-480.webp 480w, assets/img/gt500-mirror-800.webp 800w, assets/img/gt500-mirror.webp 1170w" sizes="(max-width:860px) 78vw, 544px" width="1170" height="1553" alt="Chrome door mirror" loading="lazy" decoding="async"></figure>
-    <figure class="ph wide"><img src="assets/img/gt500-badge.webp" srcset="assets/img/gt500-badge-480.webp 480w, assets/img/gt500-badge-800.webp 800w, assets/img/gt500-badge.webp 1170w" sizes="(max-width:860px) 78vw, 544px" width="1170" height="774" alt="Shelby GT500 side badge" loading="lazy" decoding="async"></figure>
-    <figure class="ph"><img src="assets/img/gt500-wheel.webp" srcset="assets/img/gt500-wheel-480.webp 480w, assets/img/gt500-wheel-800.webp 800w, assets/img/gt500-wheel.webp 1170w" sizes="(max-width:860px) 78vw, 544px" width="1170" height="1553" alt="Polished alloy wheel" loading="lazy" decoding="async"></figure>
-    <figure class="ph"><img src="assets/img/gt500-tail.webp" srcset="assets/img/gt500-tail-480.webp 480w, assets/img/gt500-tail-800.webp 800w, assets/img/gt500-tail.webp 1170w" sizes="(max-width:860px) 78vw, 544px" width="1170" height="1457" alt="Rear lamps and Shelby Cobra fuel cap" loading="lazy" decoding="async"></figure>
-    <figure class="ph"><img src="assets/img/gt500-lamps.webp" srcset="assets/img/gt500-lamps-480.webp 480w, assets/img/gt500-lamps-800.webp 800w, assets/img/gt500-lamps.webp 1170w" sizes="(max-width:860px) 78vw, 544px" width="1170" height="1552" alt="Twin driving lamps and grille" loading="lazy" decoding="async"></figure>
-  </div>
-  <div class="foot"><a class="enq" data-car="1967 Ford Mustang Shelby GT500 “Eleanor”" href="https://wa.me/27837925118" target="_blank" rel="noopener noreferrer">Enquire about Eleanor</a><p class="note">Engine and specification to be confirmed with Palace.</p></div>
-</section>
-
-<section class="sec m3" id="m3" aria-labelledby="n-m3">
-<div class="g12">
-  <h3 class="serif name" id="n-m3">BMW M3 Competition</h3>
-  <figure class="ph a"><img src="assets/img/m3-front.webp" srcset="assets/img/m3-front-480.webp 480w, assets/img/m3-front-800.webp 800w, assets/img/m3-front.webp 1170w" sizes="(max-width:860px) 50vw, 33vw" width="1170" height="1394" alt="Grey BMW G80 M3 Competition in the garage" loading="lazy" decoding="async"></figure>
-  <figure class="ph b"><img src="assets/img/m3-cabin.webp" srcset="assets/img/m3-cabin-480.webp 480w, assets/img/m3-cabin-800.webp 800w, assets/img/m3-cabin.webp 1170w" sizes="(max-width:860px) 50vw, 33vw" width="1170" height="774" alt="M3 cabin with red leather" loading="lazy" decoding="async"></figure>
-  <div class="txt">
-    <dl class="spec"><div><dt>Engine</dt><dd>3.0 L twin-turbo inline-six</dd></div><div><dt>Power</dt><dd>503 hp</dd></div><div><dt>0–100 km/h</dt><dd>3.9 s</dd></div></dl>
-    <a class="enq" data-car="BMW G80 M3 Competition" href="https://wa.me/27837925118" target="_blank" rel="noopener noreferrer">Enquire about the M3</a>
-    <p class="note">G80 M3 Competition factory figures. Exact car to be confirmed.</p>
-  </div>
-  <figure class="ph c"><img src="assets/img/m3-rear.webp" srcset="assets/img/m3-rear-480.webp 480w, assets/img/m3-rear-800.webp 800w, assets/img/m3-rear.webp 1170w" sizes="(max-width:860px) 50vw, 33vw" width="1170" height="1394" alt="Rear detail of the M3 Competition" loading="lazy" decoding="async"></figure>
-  <figure class="ph d"><img src="assets/img/m3-side.webp" srcset="assets/img/m3-side-480.webp 480w, assets/img/m3-side-800.webp 800w, assets/img/m3-side.webp 1170w" sizes="(max-width:860px) 50vw, 33vw" width="1170" height="1393" alt="M3 Competition side profile beside a Porsche" loading="lazy" decoding="async"></figure>
-  <figure class="ph e"><img src="assets/img/m3-cockpit.webp" srcset="assets/img/m3-cockpit-480.webp 480w, assets/img/m3-cockpit-800.webp 800w, assets/img/m3-cockpit.webp 1170w" sizes="(max-width:860px) 50vw, 33vw" width="1170" height="774" alt="M3 steering wheel and orange leather door" loading="lazy" decoding="async"></figure>
-  <figure class="ph f"><img src="assets/img/m3-bay.webp" srcset="assets/img/m3-bay-480.webp 480w, assets/img/m3-bay-800.webp 800w, assets/img/m3-bay.webp 1170w" sizes="(max-width:860px) 50vw, 33vw" width="1170" height="774" alt="M3 Competition in the garage bay" loading="lazy" decoding="async"></figure>
-</div>
-</section>
-
-<section class="mb" id="maybach" aria-labelledby="n-mb">
-  <div class="ph"><img src="assets/img/maybach-ornament.webp" srcset="assets/img/maybach-ornament-480.webp 480w, assets/img/maybach-ornament-800.webp 800w, assets/img/maybach-ornament.webp 1170w" sizes="100vw" width="1170" height="773" alt="Maybach emblem glowing on the bonnet of the V-Class" loading="lazy" decoding="async"></div>
-  <div class="box"><h3 class="serif name" id="n-mb">Maybach V-Class</h3><p class="lede">Room for the whole party, finished to the same standard. Ideal alongside a chauffeured booking.</p><a class="enq" data-car="Maybach V-Class" href="https://wa.me/27837925118" target="_blank" rel="noopener noreferrer">Enquire about the V-Class</a><p class="note">Specification and chauffeur options on request.</p></div>
-</section>
-<section class="sec mbg" aria-label="Maybach V-Class photographs"><div class="g12">
-  <figure class="ph a"><img src="assets/img/maybach-front.webp" srcset="assets/img/maybach-front-480.webp 480w, assets/img/maybach-front-800.webp 800w, assets/img/maybach-front.webp 1170w" sizes="(max-width:860px) 50vw, 33vw" width="1170" height="773" alt="White Maybach V-Class with headlights on" loading="lazy" decoding="async"></figure>
-  <figure class="ph b"><img src="assets/img/maybach-badge.webp" srcset="assets/img/maybach-badge-480.webp 480w, assets/img/maybach-badge-800.webp 800w, assets/img/maybach-badge.webp 1170w" sizes="(max-width:860px) 50vw, 33vw" width="1170" height="774" alt="Maybach badge beside the red tail lamp" loading="lazy" decoding="async"></figure>
-  <figure class="ph c"><img src="assets/img/maybach-wheel.webp" srcset="assets/img/maybach-wheel-480.webp 480w, assets/img/maybach-wheel-800.webp 800w, assets/img/maybach-wheel.webp 1170w" sizes="(max-width:860px) 50vw, 33vw" width="1170" height="774" alt="Maybach wheel centre cap" loading="lazy" decoding="async"></figure>
-  <figure class="ph d"><img src="assets/img/maybach-rear.webp" srcset="assets/img/maybach-rear-480.webp 480w, assets/img/maybach-rear-800.webp 800w, assets/img/maybach-rear.webp 1170w" sizes="(max-width:860px) 50vw, 33vw" width="1170" height="774" alt="Two Maybach V-Class vans facing the garage" loading="lazy" decoding="async"></figure>
-</div></section>
-
-<section class="sec exp" id="experience">
-<div class="g12">
-  <h2 class="serif">Hire it, or be driven in it.</h2>
-  <div class="list">
-    <div><h3>Chauffeured rentals</h3><p>Arrive in the back, not behind the wheel.</p></div>
-    <div><h3>Private events</h3><p>Ask about the car that suits the occasion.</p></div>
-    <div><h3>Special occasions</h3><p>Tell us the date and what you have in mind.</p></div>
-  </div>
-  <figure class="ph pic"><img src="assets/img/gt500-front.webp" srcset="assets/img/gt500-front-480.webp 480w, assets/img/gt500-front-800.webp 800w, assets/img/gt500-front.webp 1170w" sizes="(max-width:860px) 50vw, 33vw" width="1170" height="1553" alt="Cars lined up in the Palace garage" loading="lazy" decoding="async" style="object-position:70% 50%"></figure>
-  <p class="where">Palace is based in Durban, South Africa. Follow new arrivals on <a class="ulink" href="https://www.instagram.com/palace.exotics/" target="_blank" rel="noopener noreferrer">@palace.exotics</a>.</p>
-</div>
-</section>
-
-<div class="mos" role="group" aria-label="Details from the garage">
-  <figure class="ph"><img src="assets/img/gt500-dash.webp" srcset="assets/img/gt500-dash-480.webp 480w, assets/img/gt500-dash-800.webp 800w, assets/img/gt500-dash.webp 1170w" sizes="(max-width:860px) 78vw, 544px" width="1170" height="1552" alt="" loading="lazy" decoding="async"></figure>
-  <figure class="ph"><img src="assets/img/gt500-wheel.webp" srcset="assets/img/gt500-wheel-480.webp 480w, assets/img/gt500-wheel-800.webp 800w, assets/img/gt500-wheel.webp 1170w" sizes="(max-width:860px) 78vw, 544px" width="1170" height="1553" alt="" loading="lazy" decoding="async"></figure>
-  <figure class="ph"><img src="assets/img/gt3-cabin-bay.webp" srcset="assets/img/gt3-cabin-bay-480.webp 480w, assets/img/gt3-cabin-bay-800.webp 800w, assets/img/gt3-cabin-bay.webp 1170w" sizes="(max-width:860px) 78vw, 544px" width="1170" height="1380" alt="" loading="lazy" decoding="async"></figure>
-  <figure class="ph"><img src="assets/img/gt3-sill.webp" srcset="assets/img/gt3-sill-480.webp 480w, assets/img/gt3-sill-800.webp 800w, assets/img/gt3-sill.webp 1170w" sizes="(max-width:860px) 78vw, 544px" width="1170" height="1552" alt="" loading="lazy" decoding="async"></figure>
-  <figure class="ph"><img src="assets/img/gt500-lamps.webp" srcset="assets/img/gt500-lamps-480.webp 480w, assets/img/gt500-lamps-800.webp 800w, assets/img/gt500-lamps.webp 1170w" sizes="(max-width:860px) 78vw, 544px" width="1170" height="1552" alt="" loading="lazy" decoding="async"></figure>
-  <figure class="ph"><img src="assets/img/gt500-badge.webp" srcset="assets/img/gt500-badge-480.webp 480w, assets/img/gt500-badge-800.webp 800w, assets/img/gt500-badge.webp 1170w" sizes="(max-width:860px) 78vw, 544px" width="1170" height="774" alt="" loading="lazy" decoding="async"></figure>
-</div>
-
-<section class="sec enq-sec" id="enquire">
-<div class="g12">
-  <div><h2 class="serif">Enquire about a car</h2><p>Choose the car and your dates. This opens WhatsApp with your message ready to send. It is an enquiry, not a booking: Palace confirms rates and availability.</p></div>
-  <form id="form" novalidate>
-    <label>Your name<input name="name" autocomplete="name" required aria-describedby="e-name"><span class="err" id="e-name" role="alert" hidden></span></label>
-    <label>Vehicle<select name="car" required aria-describedby="e-car"><option value="">Choose a vehicle</option><option>Rolls-Royce Ghost</option><option>Ferrari 458 Spider</option><option>Porsche 911 GT3</option><option>1967 Ford Mustang Shelby GT500 “Eleanor”</option><option>BMW G80 M3 Competition</option><option>Maybach V-Class</option><option>Not sure yet, please advise</option></select><span class="err" id="e-car" role="alert" hidden></span></label>
-    <div class="two"><label>From<input type="date" name="from" aria-describedby="e-from"><span class="err" id="e-from" role="alert" hidden></span></label><label>Until<input type="date" name="to" aria-describedby="e-to"><span class="err" id="e-to" role="alert" hidden></span></label></div>
-    <label>Anything else (optional)<textarea name="msg" rows="3" placeholder="Occasion, chauffeur, pick-up area"></textarea></label>
-    <button class="btn" type="submit">Continue on WhatsApp</button>
-    <p class="fine">Opens WhatsApp with your message ready to send. Sending it is an enquiry, not a confirmed booking.</p>
-    <p class="fine">Not on WhatsApp? Message <a href="https://www.instagram.com/palace.exotics/" target="_blank" rel="noopener noreferrer">@palace.exotics</a> on Instagram.</p>
-  </form>
-  <noscript><p class="fine">JavaScript is off: <a href="https://wa.me/27837925118" target="_blank" rel="noopener noreferrer">message us on WhatsApp</a> with the car and your dates.</p></noscript>
-</div>
-</section>
-
-<section class="end" aria-label="Contact">
-  <div class="ph"><img src="assets/img/ghost-front.webp" srcset="assets/img/ghost-front-480.webp 480w, assets/img/ghost-front-800.webp 800w, assets/img/ghost-front.webp 1170w" sizes="100vw" width="1170" height="1554" alt="" loading="lazy" decoding="async" style="object-position:50% 60%"></div>
-  <div class="row">
-    <div><h2 class="serif">Tell us the car and the date.</h2>
-    <address><span>Durban, South Africa</span><a class="wa" href="https://wa.me/27837925118" target="_blank" rel="noopener noreferrer">WhatsApp +27 83 792 5118</a><a href="https://www.instagram.com/palace.exotics/" target="_blank" rel="noopener noreferrer">Instagram @palace.exotics</a></address></div>
-    <a class="btn wa" href="https://wa.me/27837925118" target="_blank" rel="noopener noreferrer">Start an enquiry</a>
-  </div>
-</section>
+<main id="main">
+<section class="hero" aria-label="Palace Exotic Car Hire"><div class="ph"><img src="assets/img/gt3-rear.webp" srcset="assets/img/gt3-rear-480.webp 480w, assets/img/gt3-rear-800.webp 800w, assets/img/gt3-rear.webp 1170w" sizes="100vw" width="1170" height="1457" alt="Rear of a black Porsche 911 GT3 in the Palace garage, its red light bar glowing" fetchpriority="high"></div>
+ <div class="in"><h1 class="serif">A garage of <em>the extraordinary</em></h1><p>Exotic, luxury and chauffeured car hire in Durban.</p>
+ <div class="acts"><a class="btn" href="#fleet">Browse the fleet</a><a class="ulink wa" href="https://wa.me/27837925118" target="_blank" rel="noopener noreferrer">Message on WhatsApp</a></div></div></section>
+<section class="sec" id="fleet"><div class="wrap"><h2 class="serif">The fleet</h2><p class="sub">Six cars, photographed in the Palace garage. Open a car for its details and photographs, then enquire for rates and availability.</p>
+<div class="grid">
+<article class="card"><a class="ph" href="rolls-royce-ghost.html" tabindex="-1" aria-hidden="true"><img src="assets/img/ghost-front.webp" srcset="assets/img/ghost-front-480.webp 480w, assets/img/ghost-front-800.webp 800w, assets/img/ghost-front.webp 1170w" sizes="(max-width:899px) 50vw, 33vw" width="1170" height="1554" alt="" loading="lazy" decoding="async" style="object-position:50% 58%"></a>
+ <div class="bd"><h3><a href="rolls-royce-ghost.html">Rolls-Royce Ghost</a></h3><p>Understated prestige: a twin-turbo V12 and a cabin in cream leather and polished wood.</p><ul class="chips"><li>6.6 L V12</li><li>563 bhp</li></ul>
+ <a class="more" href="rolls-royce-ghost.html">View Vehicle<span class="sr">: Rolls-Royce Ghost</span></a></div></article>
+<article class="card"><a class="ph" href="ferrari-458-spider.html" tabindex="-1" aria-hidden="true"><img src="assets/img/ferrari-front.webp" srcset="assets/img/ferrari-front-480.webp 480w, assets/img/ferrari-front-800.webp 800w, assets/img/ferrari-front.webp 1170w" sizes="(max-width:899px) 50vw, 33vw" width="1170" height="1456" alt="" loading="lazy" decoding="async" style="object-position:50% 52%"></a>
+ <div class="bd"><h3><a href="ferrari-458-spider.html">Ferrari 458 Spider</a></h3><p>A naturally aspirated V8 with a retractable hardtop. Performance with the roof away.</p><ul class="chips"><li>4.5 L V8</li><li>570 CV</li></ul>
+ <a class="more" href="ferrari-458-spider.html">View Vehicle<span class="sr">: Ferrari 458 Spider</span></a></div></article>
+<article class="card"><a class="ph" href="porsche-911-gt3.html" tabindex="-1" aria-hidden="true"><img src="assets/img/gt3-bay.webp" srcset="assets/img/gt3-bay-480.webp 480w, assets/img/gt3-bay-800.webp 800w, assets/img/gt3-bay.webp 1170w" sizes="(max-width:899px) 50vw, 33vw" width="1170" height="774" alt="" loading="lazy" decoding="async" style="object-position:42% 50%"></a>
+ <div class="bd"><h3><a href="porsche-911-gt3.html">Porsche 911 GT3</a></h3><p>A track-bred 911 with a naturally aspirated flat-six and an unmistakable rear wing.</p><ul class="chips"><li>4.0 L flat-six</li><li>510 PS</li></ul>
+ <a class="more" href="porsche-911-gt3.html">View Vehicle<span class="sr">: Porsche 911 GT3</span></a></div></article>
+<article class="card"><a class="ph" href="ford-mustang-shelby-gt500-eleanor.html" tabindex="-1" aria-hidden="true"><img src="assets/img/gt500-front.webp" srcset="assets/img/gt500-front-480.webp 480w, assets/img/gt500-front-800.webp 800w, assets/img/gt500-front.webp 1170w" sizes="(max-width:899px) 50vw, 33vw" width="1170" height="1553" alt="" loading="lazy" decoding="async" style="object-position:50% 55%"></a>
+ <div class="bd"><h3><a href="ford-mustang-shelby-gt500-eleanor.html">1967 Ford Mustang Shelby GT500 “Eleanor”</a></h3><p>A 1967 Shelby GT500 in grey with black stripes, named Eleanor after the film car.</p><ul class="chips"><li>1967</li><li>Shelby GT500</li></ul>
+ <a class="more" href="ford-mustang-shelby-gt500-eleanor.html">View Vehicle<span class="sr">: 1967 Ford Mustang Shelby GT500 “Eleanor”</span></a></div></article>
+<article class="card"><a class="ph" href="bmw-g80-m3-competition.html" tabindex="-1" aria-hidden="true"><img src="assets/img/m3-front.webp" srcset="assets/img/m3-front-480.webp 480w, assets/img/m3-front-800.webp 800w, assets/img/m3-front.webp 1170w" sizes="(max-width:899px) 50vw, 33vw" width="1170" height="1394" alt="" loading="lazy" decoding="async" style="object-position:50% 58%"></a>
+ <div class="bd"><h3><a href="bmw-g80-m3-competition.html">BMW G80 M3 Competition</a></h3><p>A four-door twin-turbo straight-six with a cabin trimmed in orange leather.</p><ul class="chips"><li>3.0 L inline-six</li><li>503 hp</li></ul>
+ <a class="more" href="bmw-g80-m3-competition.html">View Vehicle<span class="sr">: BMW G80 M3 Competition</span></a></div></article>
+<article class="card"><a class="ph" href="maybach-v-class.html" tabindex="-1" aria-hidden="true"><img src="assets/img/maybach-front.webp" srcset="assets/img/maybach-front-480.webp 480w, assets/img/maybach-front-800.webp 800w, assets/img/maybach-front.webp 1170w" sizes="(max-width:899px) 50vw, 33vw" width="1170" height="773" alt="" loading="lazy" decoding="async" style="object-position:42% 50%"></a>
+ <div class="bd"><h3><a href="maybach-v-class.html">Maybach V-Class</a></h3><p>Room for the whole party, with Maybach detailing inside and out.</p><ul class="chips"><li>Chauffeur options on request</li></ul>
+ <a class="more" href="maybach-v-class.html">View Vehicle<span class="sr">: Maybach V-Class</span></a></div></article>
+</div></div></section>
+<section class="sec story" id="experience"><div class="wrap cols"><div><h2 class="serif">Hire it, or be driven in it.</h2>
+<ul><li><b>Chauffeured rentals</b><span>Arrive in the back, not behind the wheel.</span></li><li><b>Private events</b><span>Ask about the car that suits the occasion.</span></li><li><b>Special occasions</b><span>Tell us the date and what you have in mind.</span></li></ul>
+<p class="fine" style="margin-top:1.2rem">Based in Durban, South Africa. New arrivals on <a href="https://www.instagram.com/palace.exotics/" target="_blank" rel="noopener noreferrer">@palace.exotics</a>.</p></div>
+<div class="ph"><img src="assets/img/ghost-spirit.webp" srcset="assets/img/ghost-spirit-480.webp 480w, assets/img/ghost-spirit-800.webp 800w, assets/img/ghost-spirit.webp 1170w" sizes="(max-width:859px) 100vw, 40vw" width="1170" height="1554" alt="The Spirit of Ecstasy mascot on a Rolls-Royce Ghost" loading="lazy" decoding="async"></div></div></section>
+<section class="sec enqs" id="enquire"><div class="wrap cols"><div><h2 class="serif">Enquire about a car</h2><p class="sub">Choose the car and your dates. This opens WhatsApp with your message ready to send. It is an enquiry, not a booking: Palace confirms rates and availability.</p></div>
+<form id="form" novalidate>
+ <label>Your name<input name="name" autocomplete="name" required aria-describedby="e-name"><span class="err" id="e-name" role="alert" hidden></span></label>
+ <label>Vehicle<select name="car" required aria-describedby="e-car"><option value="">Choose a vehicle</option><option>Rolls-Royce Ghost</option><option>Ferrari 458 Spider</option><option>Porsche 911 GT3</option><option>1967 Ford Mustang Shelby GT500 “Eleanor”</option><option>BMW G80 M3 Competition</option><option>Maybach V-Class</option><option>Not sure yet, please advise</option></select><span class="err" id="e-car" role="alert" hidden></span></label>
+ <div class="two"><label>From<input type="date" name="from" aria-describedby="e-from"><span class="err" id="e-from" role="alert" hidden></span></label><label>Until<input type="date" name="to" aria-describedby="e-to"><span class="err" id="e-to" role="alert" hidden></span></label></div>
+ <label>Anything else (optional)<textarea name="msg" rows="3" placeholder="Occasion, chauffeur, pick-up area"></textarea></label>
+ <button class="btn" type="submit">Continue on WhatsApp</button>
+ <p class="fine">Opens WhatsApp with your message ready to send. Sending it is an enquiry, not a confirmed booking.</p>
+ <p class="fine">Not on WhatsApp? Message <a href="https://www.instagram.com/palace.exotics/" target="_blank" rel="noopener noreferrer">@palace.exotics</a> on Instagram.</p>
+</form>
+<noscript><p class="fine">JavaScript is off: <a href="https://wa.me/27837925118" target="_blank" rel="noopener noreferrer">message us on WhatsApp</a> with the car and your dates.</p></noscript></div></section>
 </main>
-<footer><span>© <span id="yr">2026</span> Palace Exotic Car Hire, Durban</span><nav aria-label="Footer"><a href="#collection">Collection</a><a href="#experience">Experience</a><a href="#enquire">Enquire</a></nav></footer>
-<script>
-(()=>{
-const WA="27837925118"; /* WhatsApp number: change here only (static hrefs in the HTML are the no-JS fallback) */
-const link=t=>`https://wa.me/${WA}?text=${encodeURIComponent(t)}`;
-const ask=c=>`Hi Palace Exotics, I’m interested in enquiring about the ${c}. Could you please share the rental details and availability?`;
-const $=q=>document.querySelector(q),form=$("#form"),f=form.elements,btn=form.querySelector("button");
-const today=()=>{const d=new Date();d.setMinutes(d.getMinutes()-d.getTimezoneOffset());return d.toISOString().slice(0,10)};
-const fmt=d=>new Date(d+"T00:00").toLocaleDateString("en-ZA",{day:"numeric",month:"long",year:"numeric"});
-const dates=()=>{const a=f.from.value,b=f.to.value;return a?` Requested dates: ${fmt(a)}${b&&b>=a?" to "+fmt(b):""}.`:""};
-document.querySelectorAll("a.wa:not([data-car])").forEach(a=>a.href=link("Hi Palace Exotics, I’d like to enquire about a rental."));
-document.querySelectorAll("[data-car]").forEach(a=>{const set=()=>{a.href=link(ask(a.dataset.car)+dates())};set();a.addEventListener("click",set)});
-f.from.min=f.to.min=today();
-f.from.addEventListener("change",()=>{f.to.min=f.from.value||today();if(f.to.value&&f.to.value<f.from.value)f.to.value=""});
-const show=(el,msg)=>{const e=$("#e-"+el.name);e.textContent=msg;e.hidden=!msg;msg?el.setAttribute("aria-invalid","true"):el.removeAttribute("aria-invalid");return msg};
-const check=()=>{const a=f.from.value,b=f.to.value,bad=[];
- if(show(f.name,f.name.value.trim()?"":"Please enter your name."))bad.push(f.name);
- if(show(f.car,f.car.value?"":"Please choose a vehicle."))bad.push(f.car);
- if(show(f.from,a&&a<today()?"Choose a start date from today onwards.":""))bad.push(f.from);
- if(show(f.to,b&&!a?"Add a start date, or clear this one.":b&&b<a?"The end date must be on or after the start date.":""))bad.push(f.to);
- return bad[0]};
-form.addEventListener("input",()=>{if(form.querySelector("[aria-invalid]"))check()});
-let busy=false;
-form.addEventListener("submit",e=>{e.preventDefault();if(busy)return;const bad=check();if(bad){bad.focus();return}
- busy=true;btn.disabled=true;
- let t=ask(f.car.value.startsWith("Not sure")?"cars in your collection":f.car.value)+` My name is ${f.name.value.trim()}.`+dates();
- const m=f.msg.value.trim();if(m)t+=` Additional details: ${m}`;
- window.open(link(t),"_blank","noopener,noreferrer");
- setTimeout(()=>{busy=false;btn.disabled=false},1500)});
-const nav=$("#nav"),mb=nav.querySelector(".menu"),root=document.documentElement,rest=[$("main"),$("footer")];
-const setMenu=o=>{nav.classList.toggle("open",o);root.classList.toggle("lock",o);rest.forEach(n=>n.inert=o);mb.setAttribute("aria-expanded",o);mb.textContent=o?"Close":"Menu"};
-mb.addEventListener("click",()=>setMenu(!nav.classList.contains("open")));
-$("#links").addEventListener("click",e=>{if(e.target.closest("a"))setMenu(false)});
-addEventListener("keydown",e=>{if(e.key==="Escape"&&nav.classList.contains("open")){setMenu(false);mb.focus()}});
-matchMedia("(min-width:761px)").addEventListener("change",e=>{if(e.matches)setMenu(false)});
-new IntersectionObserver(([e])=>nav.classList.toggle("solid",!e.isIntersecting)).observe($("#sentinel"));
-$("#yr").textContent=new Date().getFullYear();
-})();
-</script>
+<footer><div class="wrap">
+  <div><a class="brand" href="index.html"><img src="assets/img/logo.webp" width="40" height="40" alt=""><span><b>Palace</b><small>Exotic Car Hire, Durban</small></span></a>
+  <p class="fine" style="margin-top:1rem;max-width:30ch">Exotic, luxury and chauffeured car hire for private events and special occasions.</p></div>
+  <nav aria-label="Footer"><h2>Explore</h2><ul><li><a href="index.html#fleet">Fleet</a></li><li><a href="index.html#experience">Experience</a></li><li><a href="index.html#enquire">Enquire</a></li></ul></nav>
+  <div><h2>Contact</h2><ul><li>Durban, South Africa</li><li><a class="wa" href="https://wa.me/27837925118" target="_blank" rel="noopener noreferrer">WhatsApp +27 83 792 5118</a></li><li><a href="https://www.instagram.com/palace.exotics/" target="_blank" rel="noopener noreferrer">Instagram @palace.exotics</a></li></ul>
+  <small>© <span id="yr">2026</span> Palace Exotic Car Hire</small></div>
+</div></footer>
+<script src="assets/js/site.js" defer></script>
 </body>
 </html>
