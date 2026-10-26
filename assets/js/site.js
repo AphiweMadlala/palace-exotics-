@@ -1,5 +1,5 @@
 (()=>{
-const WA="27837925118"; /* WhatsApp number: change here only (static hrefs in the HTML are the no-JS fallback) */
+const WA="27645135608"; /* WhatsApp number: change here only (static hrefs in the HTML are the no-JS fallback) */
 const link=t=>`https://wa.me/${WA}?text=${encodeURIComponent(t)}`;
 const ask=c=>`Hi Palace Exotics, I’m interested in enquiring about the ${c}. Could you please share the rental details and availability?`;
 const $=q=>document.querySelector(q),form=$("#form");
